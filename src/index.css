@@ -30,7 +30,7 @@ body {
   display: grid;
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .button {
@@ -174,9 +174,9 @@ form h2 {
   }
   .app {
     min-height: 66vh;
-    display: flex; /* Grid yerine flex kullanın */
-    flex-direction: column; /* Componentleri dikey olarak sırala */
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
   }
 }
@@ -187,9 +187,9 @@ form h2 {
   }
   .app {
     min-height: 66vh;
-    display: flex; /* Grid yerine flex kullanın */
-    flex-direction: column; /* Componentleri dikey olarak sırala */
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
   }
 }
